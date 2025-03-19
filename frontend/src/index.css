@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'TT Commons';
+  src: url('/fonts/TTCommons-DemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #191E29;
+  color: #FFFFFF;
+}
+
+.font-tt-commons {
+  font-family: 'TT Commons', sans-serif;
+}
+
+@keyframes square-animation {
+ 0%, 10.5% {
+  left: 0;
+  top: 0;
+ }
+ 12.5%, 23% {
+  left: 32px;
+  top: 0;
+ }
+ 25%, 35.5% {
+  left: 64px;
+  top: 0;
+ }
+ 37.5%, 48% {
+  left: 64px;
+  top: 32px;
+ }
+ 50%, 60.5% {
+  left: 32px;
+  top: 32px;
+ }
+ 62.5%, 73% {
+  left: 32px;
+  top: 64px;
+ }
+ 75%, 85.5% {
+  left: 0;
+  top: 64px;
+ }
+ 87.5%, 98% {
+  left: 0;
+  top: 32px;
+ }
+ 100% {
+  left: 0;
+  top: 0;
+ }
+}
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes bounce-x {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animate-bounce-x {
+  animation: bounce-x 1s infinite;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animation-delay-500 {
+  animation-delay: 0.5s;
+}
+
+.animation-delay-1000 {
+  animation-delay: 1s;
+}
+
+.animation-delay-1500 {
+  animation-delay: 1.5s;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
