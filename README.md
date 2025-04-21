@@ -97,11 +97,6 @@ REDIS_URL=your_redis_url
    npm run dev
 ```
 
-## 🏆 Contributors
-
-👨‍💻 **Backend Developer:** [Rehan Shah](https://github.com/Rehannn03)  
-🎨 **Frontend Developer:** [Rehan Sayyed](https://github.com/rsayyed591)  
-
 
 
 
