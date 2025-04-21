@@ -4,7 +4,6 @@
 ## 🚀 Introduction
 The **Hackathon Management System** is a powerful and efficient platform designed to streamline the organization and execution of hackathons. With features like user check-in, leaderboard tracking, team management, and role-based access control, this system ensures a smooth experience for participants, judges, and admins.
 
-🔗 **Frontend Repository:** [Hackathon Frontend](https://github.com/rsayyed591/Hack-Management-Frontend)
 
 ## 🎯 Features
 
