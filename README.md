@@ -74,7 +74,7 @@ The **Hackathon Management System** is a powerful and efficient platform designe
 
 1️⃣ **Clone the Repository:**
 ```bash
-   git clone https://github.com/Rehannn03/Hackathon.git
+  [ git clone https://github.com/Rehannn03/Hackathon.git](https://github.com/Greeshma-Medathati/HackSync.git)
    cd Hackathon
 ```
 
